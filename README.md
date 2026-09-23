@@ -1,6 +1,6 @@
 # FlyRank Frontend AI Capstone
 
-An AI-powered frontend application developed as part of the FlyRank Frontend AI Engineering track.
+An AI-powered frontend application developed for the FlyRank Frontend AI Engineering FE-01 assignment. This repository will document the project from initial setup through the implementation of a polished, accessible, and responsive frontend experience.
 
 ## Project Status
 
