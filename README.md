@@ -26,3 +26,7 @@ AI coding assistants will be used for development, code review, debugging, docum
 ## Repository Purpose
 
 This repository contains the capstone project and its development history for the Frontend AI Engineering track.
+
+## Development Principles
+
+The project will prioritize accessibility, responsive design, maintainability, and responsible use of AI-assisted development.
