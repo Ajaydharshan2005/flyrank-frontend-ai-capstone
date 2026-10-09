@@ -1,32 +1,32 @@
-# FlyRank Frontend AI Capstone
+# React + TypeScript + Vite
 
-An AI-powered frontend application developed for the FlyRank Frontend AI Engineering FE-01 assignment. This repository will document the project from initial setup through the implementation of a polished, accessible, and responsive frontend experience.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## Project Status
+Currently, two official plugins are available:
 
-Currently in the environment and repository setup phase.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Planned Technology Stack
+## React Compiler
 
-- React
-- TypeScript
-- Vite
-- HTML5
-- CSS
-- Git
-- GitHub
-- AI-assisted development
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Development Approach
+## Expanding the Oxlint configuration
 
-This project will be developed incrementally throughout the FlyRank Frontend AI Engineering track.
+If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
 
-AI coding assistants will be used for development, code review, debugging, documentation, and improving implementation quality.
+```json
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "oxc"],
+  "options": {
+    "typeAware": true
+  },
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
+```
 
-## Repository Purpose
-
-This repository contains the capstone project and its development history for the Frontend AI Engineering track.
-
-## Development Principles
-
-The project will prioritize accessibility, responsive design, maintainability, and responsible use of AI-assisted development.
+See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
