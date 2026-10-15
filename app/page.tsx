@@ -1,34 +1,35 @@
+
 import Link from "next/link";
 
 const pages = [
   {
     title: "Dashboard",
-    description: "View your maintenance workspace and equipment overview.",
+    description: "View your project dashboard.",
     href: "/dashboard",
   },
   {
-    title: "New Troubleshooting Query",
-    description: "Describe a maintenance issue and find relevant guidance.",
+    title: "New Query",
+    description: "Explore the AI-powered query interface.",
     href: "/query",
   },
   {
     title: "Documents",
-    description: "Explore approved maintenance manuals and procedures.",
+    description: "Explore project documents.",
     href: "/documents",
   },
   {
-    title: "Query History",
-    description: "Review previous troubleshooting requests.",
+    title: "History",
+    description: "Review previous activity.",
     href: "/history",
   },
   {
     title: "Settings",
-    description: "Manage your workspace preferences.",
+    description: "Manage application preferences.",
     href: "/settings",
   },
   {
     title: "System Health",
-    description: "Check the application health endpoint.",
+    description: "View health-check data.",
     href: "/health",
   },
 ];
@@ -37,23 +38,24 @@ export default function HomePage() {
   return (
     <main className="container" style={{ paddingBlock: 40 }}>
       <p style={{ color: "var(--primary)", fontWeight: 700 }}>
-        MAINT-AI · MAINTENANCE SUPPORT
+        FLYRANK · FRONTEND AI CAPSTONE
       </p>
 
       <h1 style={{ fontSize: "clamp(2rem, 5vw, 3rem)" }}>
-        Maintenance knowledge, in one place.
+        Building an AI-powered frontend experience.
       </h1>
 
       <p style={{ maxWidth: 650, lineHeight: 1.7 }}>
-        Find approved maintenance information and source-referenced
-        troubleshooting guidance. MAINT-AI supports technician decisions; it
-        does not control machinery.
+        An AI-powered frontend application developed throughout the
+        FlyRank Frontend AI Engineering track, focused on accessibility,
+        responsiveness, and maintainable design.
       </p>
 
       <section
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          gridTemplateColumns:
+            "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
           gap: 16,
           marginTop: 32,
         }}
