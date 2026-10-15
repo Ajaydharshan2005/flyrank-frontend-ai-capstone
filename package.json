@@ -10,7 +10,10 @@
     "check": "node --check src/settings.js"
   },
   "dependencies": {
+    "@ai-sdk/google": "^4.0.96",
+    "@ai-sdk/react": "^4.0.145",
     "@tailwindcss/postcss": "^4.3.3",
+    "ai": "^7.0.141",
     "next": "^16.0.0",
     "postcss": "^8.5.30",
     "react": "^19.0.0",
